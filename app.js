@@ -5,7 +5,7 @@
 const http = require("http");
 const router = require("./router");
 const hostname = 'localhost';
-const port = 1337;
+const port = process.env.PORT || 1337;
 
 const server = http.createServer((request, response) => {
   router.home(request, response);
