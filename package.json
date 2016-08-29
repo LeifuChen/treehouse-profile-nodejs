@@ -1,0 +1,22 @@
+{
+  "name": "treehouse-profile-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeifuChen/treehouse-profile-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeifuChen/treehouse-profile-nodejs/issues"
+  },
+  "homepage": "https://github.com/LeifuChen/treehouse-profile-nodejs#readme"
+}
