@@ -4,7 +4,7 @@
 //1. Create a web server
 const http = require("http");
 const router = require("./router");
-const hostname = 'localhost';
+
 const port = process.env.PORT || 1337;
 
 const server = http.createServer((request, response) => {
@@ -13,6 +13,6 @@ const server = http.createServer((request, response) => {
   //response.end('Hello World\n');
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+  console.log(`Server running at http://oursite:${port}/`);
 });
